@@ -1,0 +1,47 @@
+export const translations = {
+  ko: {
+    heroTitle: "AI 이상형 월드컵",
+    heroSubtitle: "당신의 상상을 현실로. AI가 생성한 캐릭터들로 즐기는 최고의 월드컵.",
+    startBtn: "월드컵 만들기",
+    communityBtn: "커뮤니티",
+    selectRounds: "라운드 선택",
+    promptPlaceholder: "어떤 캐릭터를 원하시나요? (예: 파란 머리의 검사)",
+    generateBtn: "생성 시작",
+    generating: "캐릭터 생성 중...",
+    timeRemaining: "예상 대기 시간",
+    minutes: "분",
+    seconds: "초",
+    progress: "진행도",
+  },
+  en: {
+    heroTitle: "AI Ideal Type World Cup",
+    heroSubtitle: "Turn your imagination into reality. The ultimate tournament with AI-generated characters.",
+    startBtn: "Create World Cup",
+    communityBtn: "Community",
+    selectRounds: "Select Rounds",
+    promptPlaceholder: "What kind of character do you want? (e.g., Swordsman with blue hair)",
+    generateBtn: "Start Generation",
+    generating: "Generating characters...",
+    timeRemaining: "Estimated time",
+    minutes: "min",
+    seconds: "sec",
+    progress: "Progress",
+  },
+  ja: {
+    heroTitle: "AI 理想のタイプワールドカップ",
+    heroSubtitle: "あなたの想像を現実に。AIが生成したキャラクターで楽しむ最高のワールドカップ。",
+    startBtn: "ワールドカップを作る",
+    communityBtn: "コミュニティ",
+    selectRounds: "ラウンド選択",
+    promptPlaceholder: "どんなキャラクターがいいですか？（例：青い髪の剣士）",
+    generateBtn: "生成開始",
+    generating: "キャラクター生成中...",
+    timeRemaining: "予想待ち時間",
+    minutes: "分",
+    seconds: "秒",
+    progress: "進行状況",
+  },
+};
+
+export type Language = "ko" | "en" | "ja";
+export type TranslationKey = keyof typeof translations.ko;
