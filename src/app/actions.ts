@@ -1,6 +1,3 @@
-"use client"; // Note: This will be moved to "use server" if needed, but for now let's keep it safe. 
-// Actually, in Next.js 15, we use "use server" at the top of the file for server actions.
-
 "use server";
 
 import { supabase } from "@/lib/supabase";
